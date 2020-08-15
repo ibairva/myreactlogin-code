@@ -126,9 +126,10 @@
   .signin-btn {
     padding: 11px 26px;
     margin: 24px auto 12px;
+    cursor: pointer;
   }
   .reg-query p {
-    margin: 5px 8px;
+    margin: 5px 4px;
   }
   .signupDirect {
     margin: 0px 10px;
@@ -166,14 +167,15 @@
     padding: 6px 16px;
     margin: 20px auto 12px;
     font-size: 12px;
+    cursor: pointer;
   }
   .reg-query p {
     margin: 5px 0px;
-    font-size: 10px;
+    font-size: 8px;
   }
   .signupDirect {
-    margin: 0px 5px;
-    padding: 6px;
+    margin: 0px 12px;
+    padding: 5px;
     font-size: 9px;
   }
   .signin-container input[type="text"],
@@ -199,5 +201,16 @@
   .signin-container input[type="text"]:hover,
   .signin-container input[type="password"]:hover {
     width: 180px;
+  }
+  .signin-btn {
+    cursor: pointer;
+  }
+  .reg-query p {
+    font-size: 8px;
+  }
+  .signupDirect {
+    margin: 0px 4px;
+    padding: 5px;
+    font-size: 9px;
   }
 }
