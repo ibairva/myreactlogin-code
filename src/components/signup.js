@@ -39,10 +39,12 @@ export default class Signup extends React.Component {
     let list2 = localStorage.getItem("userData");
     list2 = JSON.parse(list2);
 
-    const filtered = list2.filter((n) => n.username == this.state.username);
+    const filtered = (list2 || []).filter(
+      (n) => n.username === this.state.username
+    );
     console.log(filtered);
 
-    if (filtered.length == 1) {
+    if (filtered.length === 1) {
       alert("This username is already registered");
     } else {
       if (!this.state.name) {
