@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+
+.signup-header {
+  color: #09759e;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.signup-container label {
+  color: #0a2c4e;
+  display: block;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.signup-container {
+  width: 340px;
+  padding: 14px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -41%);
+  background: #e8e8e8;
+  text-align: center;
+  box-shadow: 9px 9px 10px #000000bf;
+}
+.signup-container input[type="text"],
+.signup-container input[type="password"],
+.signup-container input[type="email"] {
+  background: none;
+  border: 0px;
+  display: block;
+  margin: 5px auto 2px;
+  text-align: center;
+  border: 2px solid #065979;
+  padding: 8px 0px;
+  width: 185px;
+  outline: none;
+  color: #0e0d0d;
+  border-radius: 20px;
+  transition: 0.25s;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+}
+
+.signup-container input[type="text"]:hover,
+.signup-container input[type="password"]:hover,
+.signup-container input[type="email"]:hover {
+  width: 280px;
+  border-color: #0d9181;
+  border-radius: 30px;
+}
+
+.signup-btn {
+  background: #1b6794;
+  padding: 8px 6px;
+  margin: 18px auto 12px;
+  font-size: 13px;
+  border: 0px;
+  display: block;
+  text-align: center;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.signup-btn:hover {
+  background: #47494a;
+  color: white;
+  border: none;
+}
+.account-query p {
+  display: block;
+  float: left;
+  margin: 4px 20px 4px 40px;
+  color: #1b1a1ad7;
+  font-size: 11px;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+}
+.signinDirect {
+  background: #1b6794;
+  border: 0px;
+  display: block;
+  float: left;
+  margin: 0px 14px;
+  text-align: center;
+  padding: 7px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+.signinDirect:hover {
+  background: #47494a;
+  color: white;
+  border: none;
+}
+.form-item {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 786px) {
+  .signup-container {
+    width: 300px;
+    padding: 12px 33px;
+  }
+
+  .signup-header {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+  .signup-container label {
+    font-size: 13px;
+  }
+  .signup-btn {
+    padding: 8px 6px;
+    margin: 13px auto 12px;
+  }
+  .account-query p {
+    margin: 5px 16px;
+  }
+  .signinDirect {
+    margin: 0px 20px;
+  }
+  .signup-container input[type="text"],
+  .signup-container input[type="password"],
+  .signup-container input[type="email"] {
+    padding: 8px 2px;
+    width: 176px;
+    font-size: 11px;
+  }
+  .signup-container input[type="text"]:hover,
+  .signup-container input[type="password"]:hover,
+  .signup-container input[type="email"]:hover {
+    width: 240px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .signup-container {
+    width: 240px;
+    padding: 24px;
+  }
+
+  .signup-header {
+    font-size: 20px;
+    margin-bottom: 9px;
+  }
+  .signup-container label {
+    font-size: 13px;
+  }
+  .signup-btn {
+    padding: 6px 7px;
+    margin: 16px auto 12px;
+    font-size: 11px;
+  }
+  .account-query p {
+    margin: 5px 6px;
+    font-size: 10px;
+  }
+  .signinDirect {
+    margin: 0px 12px;
+    padding: 6px;
+    font-size: 9px;
+  }
+  .signup-container input[type="text"],
+  .signup-container input[type="password"],
+  .signup-container input[type="email"] {
+    padding: 6px 0px;
+    width: 145px;
+  }
+  .signup-container input[type="text"]:hover,
+  .signup-container input[type="password"]:hover,
+  .signup-container input[type="email"]:hover {
+    width: 207px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .signup-container {
+    width: 190px;
+    padding: 20px;
+  }
+  .signup-header {
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+  .signup-container label {
+    font-size: 12px;
+  }
+  .signup-container input[type="text"],
+  .signup-container input[type="password"],
+  .signup-container input[type="email"] {
+    padding: 5px 0px;
+    width: 120px;
+    font-size: 9px;
+  }
+  .signup-container input[type="text"]:hover,
+  .signup-container input[type="password"]:hover,
+  .signup-container input[type="email"]:hover {
+    width: 180px;
+  }
+  .signup-btn {
+    padding: 5px 6px;
+    margin: 16px auto 12px;
+    font-size: 10px;
+  }
+  .account-query p {
+    margin: 5px 0px;
+    font-size: 9px;
+  }
+  .signinDirect {
+    margin: 0px 9px;
+    padding: 5px;
+  }
+}

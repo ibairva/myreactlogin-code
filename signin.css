@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+
+.signin-header {
+  color: #09759e;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 16px;
+}
+.signin-container label {
+  color: #0a2c4e;
+  margin: 5px auto;
+  font-size: 16px;
+  margin-top: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.signin-container {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background: #e8e8e8;
+  text-align: center;
+  box-shadow: 9px 9px 10px #000000bf;
+}
+.signin-container input[type="text"],
+.signin-container input[type="password"] {
+  background: none;
+  border: 0px;
+  display: block;
+  margin: 10px auto 2px;
+  text-align: center;
+  border: 2px solid #065979;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #0e0d0d;
+  font-size: 12px;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.signin-container input[type="text"]:hover,
+.signin-container input[type="password"]:hover {
+  width: 280px;
+  border-color: #00aa96;
+  border-radius: 30px;
+}
+
+.signin-btn {
+  background: #1b6794;
+  border: 0px;
+  display: block;
+  margin: 36px auto 16px;
+  text-align: center;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.signin-btn:hover {
+  background: #47494a;
+  color: white;
+  border: none;
+}
+.signin-container .form-item {
+  margin-bottom: 16px;
+}
+.reg-query p {
+  display: block;
+  float: left;
+  margin: 5px 20px;
+  color: #1b1a1ad7;
+  font-size: 11px;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+}
+.signupDirect {
+  background: #1b6794;
+  border: 0px;
+  display: block;
+  float: left;
+  margin: 0px 14px;
+  text-align: center;
+  padding: 7px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+.signupDirect:hover {
+  background: #47494a;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 786px) {
+  .signin-container {
+    width: 250px;
+    padding: 35px;
+  }
+
+  .signin-header {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  .signin-container label {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .signin-btn {
+    padding: 11px 26px;
+    margin: 24px auto 12px;
+  }
+  .reg-query p {
+    margin: 5px 8px;
+  }
+  .signupDirect {
+    margin: 0px 10px;
+    padding: 7px;
+    border-radius: 24px;
+    font-size: 10px;
+  }
+  .signin-container input[type="text"],
+  .signin-container input[type="password"] {
+    padding: 10px 2px;
+    width: 176px;
+    font-size: 11px;
+  }
+  .signin-container input[type="text"]:hover,
+  .signin-container input[type="password"]:hover {
+    width: 240px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .signin-container {
+    width: 210px;
+    padding: 28px;
+  }
+
+  .signin-header {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .signin-container label {
+    font-size: 14px;
+  }
+  .signin-btn {
+    padding: 6px 16px;
+    margin: 20px auto 12px;
+    font-size: 12px;
+  }
+  .reg-query p {
+    margin: 5px 0px;
+    font-size: 10px;
+  }
+  .signupDirect {
+    margin: 0px 5px;
+    padding: 6px;
+    font-size: 9px;
+  }
+  .signin-container input[type="text"],
+  .signin-container input[type="password"] {
+    padding: 8px 0px;
+    width: 155px;
+  }
+  .signin-container input[type="text"]:hover,
+  .signin-container input[type="password"]:hover {
+    width: 207px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .signin-container {
+    width: 190px;
+    padding: 20px;
+  }
+  .signin-container input[type="text"],
+  .signin-container input[type="password"] {
+    padding: 8px 0px;
+    width: 130px;
+  }
+  .signin-container input[type="text"]:hover,
+  .signin-container input[type="password"]:hover {
+    width: 180px;
+  }
+}
