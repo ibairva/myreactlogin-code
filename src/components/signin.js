@@ -25,14 +25,16 @@ export default class Signin extends React.Component {
   validate = () => {
     let usernameError = "";
     let passwordError = "";
-    // let passwordError = "";
+
     let list2 = localStorage.getItem("userData");
     list2 = JSON.parse(list2);
 
-    const filtered = list2.filter((n) => n.username == this.state.username);
+    const filtered = (list2 || []).filter(
+      (n) => n.username === this.state.username
+    );
     console.log(filtered);
 
-    if (this.state.username && filtered.length == 0) {
+    if (this.state.username && filtered.length === 0) {
       alert("You are not registered. Please Sign Up");
     } else {
       if (!this.state.username) {
