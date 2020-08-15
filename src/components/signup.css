@@ -219,10 +219,10 @@
   }
   .account-query p {
     margin: 5px 0px;
-    font-size: 9px;
+    font-size: 8px;
   }
   .signinDirect {
-    margin: 0px 9px;
+    margin: 0px 4px;
     padding: 5px;
   }
 }
