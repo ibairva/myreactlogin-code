@@ -8,10 +8,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router exact path="/myreactlogin">
+      <Router exact basename="/myreactlogin">
         <Navbar />
         <Switch>
-          <Route path="/myreactlogin" exact component={Signin} />
+          <Route path="/" exact component={Signin} />
           <Route path="/signin" component={Signin} />
           <Route path="/signup" component={Signup} />
         </Switch>
